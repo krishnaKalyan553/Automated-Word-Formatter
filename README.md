@@ -12,12 +12,13 @@ A tool that automates the document formatting process for E3s Templates.
 2) clone the repository using 
 ```
 git clone https://github.com/krishnaKalyan553/Automated-Word-Formatter.git
-``` 
-3) Then install all the required libraries using the command 
+```
+3) Navigate to the documents file where you can find the manager.py
+4) Then install all the required libraries using the command 
 ```
 pip install -r requirements.txt
 ``` 
-4) Start the Django server using the command
+5) Start the Django server using the command
 ```
 python manage.py run server
 ```
@@ -28,11 +29,11 @@ python manage.py run server
 **Client:** Django Templates
 
 **Document Manipulation:** 
-- Docx is used to extract document content and enables us to create a new document object.
+- Docx extracts document content and enables us to create a new document object.
 - Setting the layout settings for newly created documents before adding the content.  
 
 **Named Entity Recognition (NER):**
-- This technique is used to identify the author's name to add stying based on this factor.
+- This technique identifies the author's name and adds stying based on this factor.
 
 **Regex:**
 - Used to add conditional formatting rules for elements like Abstract.
@@ -44,6 +45,6 @@ python manage.py run server
 ## Features
 
 - Page Layout Setting
-- Heading Non Heading formatting and justificaiton by applying appropriate style
+- Heading Non Heading formatting and justification by applying the appropriate style
 - Author name styling
-- Pattern based styking based on regex. 
+- Pattern-based styling based on regex. 
