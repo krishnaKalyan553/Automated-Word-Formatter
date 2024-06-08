@@ -1,0 +1,275 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          background-color: #f5f5f5;
+      }
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.info-div, .download-div, .contact-div {
+    padding: 40px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin-top: 60px; Adjusted margin-top to make space for fixed navigation bar 
+}
+.download-div{
+  height: max-content;
+}
+.info-div:hover, .contact-div:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
+.frame {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 260px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #666;
+}
+
+.dropzone {
+	width: 100px;
+	height: 80px;
+	border: 1px dashed #999;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.upload-icon {
+	margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+	position: relative;
+	top: -62px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.btn {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: darkmagenta;
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 3px 0 0 hotpink;
+	transition: all 0.3s ease-in-out; 
+	font-size: 14px;
+}
+
+.btn:hover {
+	background: rebeccapurple;
+	box-shadow: 0 3px 0 0 deeppink;
+}
+
+ */
+
+/* Font List */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300&display=swap');
+
+body {
+    background-color: rgb(22, 25, 43)
+}
+
+.navbar-text {
+    font-family: monospace;
+}
+.bg-custom {
+    background-color: rgb(22, 25, 43);
+}
+.custom-h1 {
+    font-family: 'Bungee Spice', cursive;
+    font-weight: 500;
+    color: #ffff;
+    font-size: 380%;
+    padding-top: 4rem;
+}
+
+.custom-p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 120%;
+    padding-bottom: 1rem;
+}
+
+.str-bs {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+.str-bs h2 {
+    font-size: 280%;
+}
+.home-el {
+    background-color: rgb(22, 25, 43);
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 49, 68);
+    border-color: rgb(45, 49, 68);
+}
+.about-section {
+    font-family: 'Bungee Spice', cursive;
+    background-color: rgb(22, 25, 43);
+    padding-top: 3rem;
+}
+.about-section h2 {
+    text-align: center;
+    font-size: 280%;
+}
+.abt-dtl {
+    padding-top: 4rem;
+}
+.pg-abt {
+    font-size: 140%;
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    padding-bottom: 6rem;
+}
+.set-img {
+    padding-bottom: 2rem;
+}
+.card-body {
+    border:1px solid rgb(45, 49, 68);
+}
+.card1:hover {
+    background:#30324d;
+    border:1px solid rgb(45, 49, 68);
+  }
+
+  .card1:hover .list-group-item{
+    background:#30324d !important
+  }
+
+
+  
+
+
+  .card2:hover {
+    background:#30324d;
+    border:1px solid rgb(45, 49, 68);
+  }
+
+  .card2:hover .list-group-item{
+    background:#30324d !important
+  }
+
+
+  .card3:hover {
+    background:#30324d;
+    border:1px solid rgb(45, 49, 68);
+  }
+
+  .card3:hover .list-group-item{
+    background:#30324d !important
+  }
+
+
+  .card:hover .btn-outline-dark{
+    color:white;
+    background:#212529;
+  }
+.contact-pg {
+    font-family: 'Bungee Spice', cursive;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.contact-pg h2 {
+    font-size: 280%;
+}
+.lt-footer {
+    font-family: 'Bungee Spice', cursive;
+    padding-top: 2rem;
+    background-color: rgb(22, 25, 43);
+}
+
